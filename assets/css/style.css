@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.swipe_card {
+    height: 100vh;
+    background-image: url(../img/suit.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.pr_name {
+    background-color: #00c6ff;
+    color: #ffffff;
+    text-align: center;
+    width: 100vw;
+    height: 100px;
+    line-height: 100px;
+    font-size: 4em;
+}
+
+.pr_price {
+    background-color: #fbff00e1;
+    width: 15%;
+    height: 50px;
+    line-height: 50px;
+    float: right;
+    margin-top: 8em;
+    margin-bottom: 1em;
+    font-size: 3em;
+    text-align: center;
+}
+
+.btn_voegtoe {
+    height: 100px;
+    width: 50%;
+    line-height: 100px;
+    border-radius: 9px;
+    background-color: #00c6ff;
+    color: #ffffff;
+    font-size: 3em;
+    text-align: center;
+    clear: both;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 680px) {
+    .pr_name {
+        height: 80px;
+        line-height: 80px;
+        font-size: 3em;
+    }
+    
+    .pr_price {
+        width: 33%;
+        margin-top: 14em;
+        font-size: 2em;
+        margin-bottom: 10px;
+    }
+    
+    .btn_voegtoe {
+        height: 60px;
+        width: 80%;
+        line-height: 60px;
+        border-radius: 9px;
+        font-size: 2em;
+    }
+}
